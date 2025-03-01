@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.box{
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    background-color: #c7afafaa;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    line-height: 40px;
+}

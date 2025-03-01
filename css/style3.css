@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+.back{
+    height:100vh;
+    width: 100vw;
+    background-image: url(../webContent/books.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(183, 210, 210, 0.221);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.489);
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: cursive;
+}
+form{
+    padding-top: 2px;
+    /* margin: auto; */
+    font-size: large;
+    padding-left: 15px;
+}
+#error{
+    color: brown;
+    padding-bottom: 10px;
+}
+.take{
+    background: none;
+    border: none;
+    border-bottom: 2px solid seagreen;
+    font-size: large;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 3px solid seagreen;
+}
+
+#submit{
+    background-color: aquamarine;
+    border: none;
+    font-size: large;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+#submit:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+tr{
+    height: 35px;
+}
+td:first-child{
+    width: 90px;
+}
+tr:last-child{
+    height: 60px;
+}

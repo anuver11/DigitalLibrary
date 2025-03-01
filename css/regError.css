@@ -1,0 +1,12 @@
+@charset "UTF-8";
+#error{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(148, 36, 36);
+}
+#container{
+    height: 500px;
+}
+#form{
+    margin: 0px auto 0px;
+}

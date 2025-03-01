@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/msg.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">
+        <div class="container">            
+                <div class="box" id="box">   
+                    <div class="logo"><h3><span id="span1">The</span> <span id="span2">Digi</span><span id="span3"> Library</span></h3></div> 
+                    <h3 id="error">The email has already been registered.</h3>        
+                    <form id="form" action="login" method="get">
+                        <table>		
+                            <tr>
+                                <td><label for="email" >Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;</label></td>
+                                <td><input name="email" class="take" type="email" id="email" placeholder="Enter your Email" required> </td>
+                            </tr>
+                            <tr>
+                                <td><label for="pass" >Password : &nbsp;</label></td>
+                                <td><input name="pass" class="take" id="pass" type="text" placeholder="Enter Password" required> </td>
+                            </tr>
+                            <tr >
+                                <td id="sub1" colspan="2"><input id="submit" type="submit" value="Login"> </td>                       
+                            </tr>
+                        </table>
+                    </form>
+                    <div class="already">
+                        <h3 id="or">--------------------OR--------------------</h3>
+                        <a id="option" href="../index.html">Register Yourself</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>

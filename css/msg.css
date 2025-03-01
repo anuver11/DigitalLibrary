@@ -1,0 +1,11 @@
+#box{
+    height: 355px;
+}
+#error{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(148, 36, 36);
+}
+#form{
+    margin: 0px auto 0px;
+}

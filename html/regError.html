@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/regError.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="back">
+        <div class="container" id="container">
+                <div class="logo"><h3><span id="span1">The</span> <span id="span2">Digi</span><span id="span3"> Library</span></h3></div>
+                <h3 id="error">The email has already been registered.</h3>
+            	<form id="form" action="reg" method="post">
+                <table>
+                    <tr>
+                        <td><label for="name" >Name : </label> </td>
+                        <td><input name="name" class="take" id="name" type="text" placeholder="Enter your name" required> </td>
+                    </tr>			
+                    <tr>
+                        <td><label for="email" >Email : </label></td>
+                        <td><input name="email" class="take" type="email" id="email" placeholder="Enter your Email" required> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="class" >Class : </label></td>
+                        <td><select name="class" class="take" id="class" required>
+                                <option value="9" >9th</option>
+                                <option value="10" >10th</option>
+                                <option value="11" >11th</option>
+                                <option value="12" >12th</option>
+                        </select> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="school" >School : </label></td>
+                        <td><input name="school" class="take" type="text" id="school" placeholder="Enter your School" required> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="city" >City : </label></td>
+                        <td><input name="city" class="take" id="city" type="text" placeholder="Enter your city" required > </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass" >Password : </label></td>
+                        <td><input name="pass" class="take" id="pass" type="password" placeholder="Enter Password" required > </td>
+                    </tr>
+                    <tr >
+                        <td id="sub1" colspan="2"><input id="submit" type="submit" > </td>                       
+                    </tr>
+                </table>
+            </form>
+            <div class="already">
+            	<h3 id="or">--------------------OR--------------------</h3>
+            	<a id="option" href="login.html">Already has an account</a>
+            </div>
+        </div>            
+    </div>
+</body>
+</html>
